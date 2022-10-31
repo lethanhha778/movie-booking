@@ -3,14 +3,14 @@
     border: none;
     background-color: #f5222d;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
     width: 100%;
     height: 100%;
     cursor: pointer;
 }
 
 .btn-book-ticket:hover {
-    color: black;
+    color: rgb(37, 32, 32);
     background-color: #cf1322;
     transition: .2s ease-in;
 }
@@ -18,7 +18,7 @@
     border-radius: 8px;
     border: none;
     background-color: #f66169;
-    color: white;
+    color: black;
     font-weight: 500;
     width: 100%;
     height: 100%;

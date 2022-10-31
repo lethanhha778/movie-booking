@@ -119,7 +119,8 @@ export default function Booking() {
                         <Form.Group className="col-md-8 col-lg-8 px-1">
                             <Form.Select id="disabledSelect"
                                 defaultValue={'default'}
-                                onChange={handleMovie}>
+                                onChange={handleMovie}
+                                className='fw-bold' >
                                 <option value={'default'}>Chọn Phim</option>
                                 {renderMovies()}
                             </Form.Select>
@@ -127,7 +128,8 @@ export default function Booking() {
                         <Form.Group className="col-md-4 col-lg-4 px-1">
                             <Form.Select id="disabledSelect"
                                 defaultValue={'default'}
-                                onChange={handleCinema} >
+                                onChange={handleCinema}
+                                className='fw-bold'  >
                                 <option value={'default'}>Chọn Rạp</option>
                                 {renderCinema()}
                             </Form.Select>
@@ -139,15 +141,17 @@ export default function Booking() {
                         <Form.Group className="col-md-4 col-lg-4 px-1">
                             <Form.Select id="disabledSelect"
                                 defaultValue={'default'}
-                                onChange={handleDay} >
+                                onChange={handleDay}
+                                className='fw-bold'  >
                                 <option value={'default'}>Chọn Ngày</option>
                                 {renderMovieDay()}
                             </Form.Select>
                         </Form.Group>
-                        <Form.Group className="col-md-4 col-lg-4 px-1">
+                        <Form.Group className="col-md-4 col-lg-4 px-1 fw-bold">
                             <Form.Select id="disabledSelect"
                                 defaultValue={'default'}
-                                onChange={handleHours} >
+                                onChange={handleHours}
+                                className='fw-bold' >
                                 <option value={'default'}>Chọn Giờ</option>
                                 {renderMovieHouse()}
                             </Form.Select>
