@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Header from './components/Header/HomeHeader';
+import Header from './components/Header/index';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CarouselMovie from './components/Carousel/Carousel';
-import Movie from './components/Movie/Movie';
+import CarouselMovie from './components/Carousel/index.jsx';
+
 
 
 

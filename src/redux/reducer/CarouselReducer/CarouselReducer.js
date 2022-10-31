@@ -1,7 +1,5 @@
 import { OPEN_VIDEO, CLOSE_VIDEO } from "../../types/CarouselType/CarouselType"
 
-
-
 const initialState = {
     open: false,
     linkYouTube:''

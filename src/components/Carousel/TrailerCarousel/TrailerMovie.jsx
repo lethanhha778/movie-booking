@@ -1,8 +1,8 @@
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 import { useDispatch, useSelector } from "react-redux";
-import { CLOSE_VIDEO } from '../../redux/types/CarouselType/CarouselType';
-import '../TrailerCarousel/trailer.css'
+import { CLOSE_VIDEO } from '../../../redux/types/CarouselType/CarouselType';
+import './trailer.css'
 
 export default function TrailerMovie() {
 

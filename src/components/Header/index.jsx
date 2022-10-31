@@ -6,7 +6,7 @@ import { BiUserCircle, BiUserPlus, BiMoviePlay, BiCameraMovie } from "react-icon
 import { FaNewspaper } from "react-icons/fa";
 import { FiSmartphone } from "react-icons/fi";
 
-import '../Header/homeHeader.css'
+import '../Header/style.css'
 
 function Header() {
   return (
