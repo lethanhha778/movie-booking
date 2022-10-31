@@ -1,0 +1,23 @@
+iframe {
+    margin-top: 100px;
+    height: 500px;
+
+}
+
+.modal-content {
+    background-color: transparent;
+    border: transparent;
+}
+@media screen and (max-width: 960px) {
+    iframe {
+        margin-top: 60px;
+
+        height: 300px; 
+    }
+}
+
+@media screen and (max-width: 540px) {
+    iframe {
+        display: none;
+    }
+}

@@ -1,0 +1,35 @@
+.img-logo img {
+    max-height: 36px;
+}
+
+.menu a {
+    color: #7d7d7d;
+}
+
+.menu a:hover {
+    color: #fb0b3d;
+}
+#root .navbar-collapse{
+    background-color: white;
+    /* padding: 0 16px; */
+}
+#root .navbar-toggler{
+    border: none;
+    color: transparent;
+}
+
+#root .navbar {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: white;
+    max-height: 70px;
+    min-height: 70px;
+}
+#root .container-fluid{
+    padding: 0 2%;
+}
+
+@media screen and (max-width: 767px) {
+    svg {
+        margin-right: 10px;
+    }
+}

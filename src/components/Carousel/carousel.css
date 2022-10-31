@@ -1,0 +1,88 @@
+.banner {
+    margin-top: 70px;
+    position: relative;
+}
+
+.booking {
+    position: absolute;
+    display: block;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    padding: 10px 0;
+}
+
+.booking .booking-movie {
+    width: 70%;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: white;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#root .carousel-item {
+    position: relative;
+}
+
+.carousel-item .icon-play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+    width: 80px;
+    height: 80px;
+}
+
+.icon-play svg {
+    width: 80px;
+    height: 80px;
+    color: rgba(236, 239, 241, 0.998);
+    opacity: 0;
+    cursor: pointer;
+    transition: linear 0.5s;
+}
+
+.carousel-inner:hover .icon-play svg {
+    opacity: 1;
+}
+
+.btn-book-ticket {
+    border-radius: 8px;
+    border: none;
+    background-color: #f5222d;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.btn-book-ticket:hover {
+    color: black;
+    background-color: #cf1322;
+    transition: .2s ease-in;
+}
+.btn-oder-none{
+    border-radius: 8px;
+    border: none;
+    background-color: #f66169;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    cursor: no-drop;
+}
+
+@media screen and (max-width:540px) {
+    .icon-play svg {
+        display: none;
+    }
+}
