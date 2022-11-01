@@ -1,14 +1,15 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import Carousel from 'react-bootstrap/Carousel';
 import '../Carousel/style.css'
 import { AiOutlinePlayCircle } from "react-icons/ai";
 import { imgCarouselData } from '../../constant/imgCarouselData';
-import { OPEN_VIDEO } from '../../redux/types/CarouselType/CarouselType';
+import { OPEN_VIDEO } from '../../redux/types/trailerType';
 import TrailerMovie from '../Carousel/TrailerCarousel/TrailerMovie';
 import Booking from '../Booking';
 
 function CarouselMovie() {
+    // let {imgBanner} = useSelector(state => state.carouselReducer)
     let dispacth = useDispatch()
     let openVideo = (link) => {
         console.log(link);

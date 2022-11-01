@@ -1,9 +1,25 @@
 import React, { useState, useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import Form from 'react-bootstrap/Form';
 import { movieService } from '../../services/movieService';
 import '../Booking/style.css'
+import { listMovieAction } from '../../redux/actions/movieAction';
+
 
 export default function Booking() {
+    // let {mangPhim} = useSelector(state => state.movieReducer)
+    // let dispatch = useDispatch()
+
+    // useEffect(() => {
+    //     getAPI()
+    // }, [])
+    // console.log(mangPhim)
+
+    // let getAPI = ()=>{
+    //     let acction = listMovieAction('GP13')
+    //     dispatch(acction)
+    // }
+
     var moment = require("moment");
     const [listMovies, setListMovies] = useState([])
     useEffect(() => {

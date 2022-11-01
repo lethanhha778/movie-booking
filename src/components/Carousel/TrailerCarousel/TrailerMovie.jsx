@@ -1,12 +1,14 @@
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 import { useDispatch, useSelector } from "react-redux";
-import { CLOSE_VIDEO } from '../../../redux/types/CarouselType/CarouselType';
+import { CLOSE_VIDEO } from '../../../redux/types/trailerType';
+
 import './trailer.css'
 
 export default function TrailerMovie() {
 
-    const link = useSelector((state) => state.CarouselReducer)
+    const link = useSelector((state) => state.trailerReducer)
+    console.log(link);
     const dispatch = useDispatch();
     const handleClose = () => {
         dispatch({ type: CLOSE_VIDEO, payload: { open: false } });
