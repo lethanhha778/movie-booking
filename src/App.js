@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header/index';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CarouselMovie from './components/Carousel/index.jsx';
+import Theater from './components/Theater';
 
 
 
@@ -17,8 +18,7 @@ function App() {
     // </BrowserRouter>
 
     <div >
-        <Header/>
-        <CarouselMovie/>
+        <Theater/>
 
     </div>
   );
